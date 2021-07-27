@@ -1,0 +1,52 @@
+/* -------------------------- IMPORTING GOOGLE FONT ------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* ---------------------------- BASE & UTILITIES ---------------------------- */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: "Bebas Neue", cursive !important;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+/* --------------------------------- HEADER --------------------------------- */
+.logo-box img {
+  width: 29rem;
+}
+.nav-item a {
+  font-family: "Roboto", sans-serif !important;
+}
+.nav-link {
+  color: #3c3c3c;
+}
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive !important;
+}
+.grid-items {
+  width: 37rem;
+}
+.banner {
+  width: 33.5rem;
+  height: 32.7rem;
+  overflow: hidden;
+}
+.banner img {
+  width: 70%;
+}
+.feature-img-box img {
+  width: 8rem;
+}

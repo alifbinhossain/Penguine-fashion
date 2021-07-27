@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PENGUIN FASHION | TAILWIND</title>
+    <!-- ------------------------- TAILWIND STYLESHEET ------------------------- -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 HEADER                                  -->
+    <!-- ----------------------------------------------------------------------- -->
+    <header class="header h-screen bg-yellow-50 py-12 px-36">
+      <!-- NAVIGATION -->
+      <nav class="md:flex items-center justify-between">
+        <div class="logo-box">
+          <img src="icons/Group 33072.png" alt="" />
+        </div>
+        <ul class="nav-list flex items-center">
+          <li class="nav-item mr-16">
+            <a href="" class="nav-link font-medium">Home</a>
+          </li>
+          <li class="nav-item mr-16">
+            <a href="" class="nav-link font-medium">Product</a>
+          </li>
+          <li class="nav-item mr-16">
+            <a href="" class="nav-link font-medium">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link font-medium">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- --------------------------- HEADER CONTENT ---------------------------- -->
+      <section class="header-content mt-8 lg:flex items-center">
+        <div class="header-content__item space-y-8 flex-1">
+          <h1 class="text-9xl font-bold tracking-wider">
+            <span class="text-yellow-400">Be the penguins</span> <br />
+            <span class="text-gray-800">of winter</span>
+          </h1>
+          <p class="w-2/3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sequi
+            blanditiis necessitatibus esse veritatis odit?
+          </p>
+          <button
+            class="
+              text-white
+              bg-gradient-to-br
+              from-green-500
+              to-green-700
+              py-7
+              px-11
+              uppercase
+              rounded-2xl
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10 inline"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              />
+            </svg>
+            Buy Now
+          </button>
+        </div>
+        <div class="header-content__item flex-1">
+          <img src="images/model.png" alt="" />
+        </div>
+      </section>
+    </header>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                  MAIN                                   -->
+    <!-- ----------------------------------------------------------------------- -->
+    <main>
+      <!-- WOMEN JACKET -->
+      <section class="container mx-auto my-12">
+        <h2
+          class="
+            text-7xl
+            uppercase
+            text-gray-800
+            font-semibold
+            tracking-wider
+            p-8
+            text-center
+          "
+        >
+          Woman Jacket
+        </h2>
+        <div class="grid grid-cols-3 justify-items-center">
+          <div
+            class="
+              grid-items
+              rounded-2xl
+              shadow-lg
+              overflow-hidden
+              p-5
+              flex flex-col
+              space-y-6
+            "
+          >
+            <div
+              class="
+                banner
+                bg-gray-200
+                mx-auto
+                rounded-2xl
+                flex
+                items-center
+                justify-center
+              "
+            >
+              <img src="images/jacket-1.png" alt="" srcset="" />
+            </div>
+            <h3 class="text-4xl font-bold text-gray-900">Yellow Coat Jacket</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="card-footer flex justify-between items-center">
+              <h4 class="price text-6xl font-bold text-yellow-400">$240</h4>
+              <button
+                class="
+                  text-white
+                  px-12
+                  py-8
+                  rounded-2xl
+                  bg-gradient-to-r
+                  from-green-400
+                  to-green-600
+                  uppercase
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div
+            class="
+              grid-items
+              rounded-2xl
+              shadow-lg
+              overflow-hidden
+              p-5
+              flex flex-col
+              space-y-6
+            "
+          >
+            <div
+              class="
+                banner
+                bg-gray-200
+                mx-auto
+                rounded-2xl
+                flex
+                items-center
+                justify-center
+              "
+            >
+              <img src="images/jacket-2.png" alt="" srcset="" />
+            </div>
+            <h3 class="text-4xl font-bold text-gray-900">Ladies Jacket</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="card-footer flex justify-between items-center">
+              <h4 class="price text-6xl font-bold text-yellow-400">$240</h4>
+              <button
+                class="
+                  text-white
+                  px-12
+                  py-8
+                  rounded-2xl
+                  bg-gradient-to-r
+                  from-green-400
+                  to-green-600
+                  uppercase
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div
+            class="
+              grid-items
+              rounded-2xl
+              shadow-lg
+              overflow-hidden
+              p-5
+              flex flex-col
+              space-y-6
+            "
+          >
+            <div
+              class="
+                banner
+                bg-gray-200
+                mx-auto
+                rounded-2xl
+                flex
+                items-center
+                justify-center
+              "
+            >
+              <img src="images/jacket-3.png" alt="" srcset="" />
+            </div>
+            <h3 class="text-4xl font-bold text-gray-900">
+              Woman Leather Jacket
+            </h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="card-footer flex justify-between items-center">
+              <h4 class="price text-6xl font-bold text-yellow-400">$240</h4>
+              <button
+                class="
+                  text-white
+                  px-12
+                  py-8
+                  rounded-2xl
+                  bg-gradient-to-r
+                  from-green-400
+                  to-green-600
+                  uppercase
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MENS JACKET -->
+      <section class="container mx-auto my-12">
+        <h2
+          class="
+            text-7xl
+            uppercase
+            text-gray-800
+            font-semibold
+            tracking-wider
+            p-8
+            text-center
+          "
+        >
+          Mens Jacket
+        </h2>
+        <div class="grid grid-cols-3 justify-items-center">
+          <div
+            class="
+              grid-items
+              rounded-2xl
+              shadow-lg
+              overflow-hidden
+              p-5
+              flex flex-col
+              space-y-6
+            "
+          >
+            <div
+              class="
+                banner
+                bg-gray-200
+                mx-auto
+                rounded-2xl
+                flex
+                items-center
+                justify-center
+              "
+            >
+              <img src="images/jacket-4.png" alt="" srcset="" />
+            </div>
+            <h3 class="text-4xl font-bold text-gray-900">
+              Snowboard Jacket Mens
+            </h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="card-footer flex justify-between items-center">
+              <h4 class="price text-6xl font-bold text-yellow-400">$240</h4>
+              <button
+                class="
+                  text-white
+                  px-12
+                  py-8
+                  rounded-2xl
+                  bg-gradient-to-r
+                  from-green-400
+                  to-green-600
+                  uppercase
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div
+            class="
+              grid-items
+              rounded-2xl
+              shadow-lg
+              overflow-hidden
+              p-5
+              flex flex-col
+              space-y-6
+            "
+          >
+            <div
+              class="
+                banner
+                bg-gray-200
+                mx-auto
+                rounded-2xl
+                flex
+                items-center
+                justify-center
+              "
+            >
+              <img src="images/jacket-5.png" alt="" srcset="" />
+            </div>
+            <h3 class="text-4xl font-bold text-gray-900">
+              Man Leather Jackets
+            </h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="card-footer flex justify-between items-center">
+              <h4 class="price text-6xl font-bold text-yellow-400">$240</h4>
+              <button
+                class="
+                  text-white
+                  px-12
+                  py-8
+                  rounded-2xl
+                  bg-gradient-to-r
+                  from-green-400
+                  to-green-600
+                  uppercase
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div
+            class="
+              grid-items
+              rounded-2xl
+              shadow-lg
+              overflow-hidden
+              p-5
+              flex flex-col
+              space-y-6
+            "
+          >
+            <div
+              class="
+                banner
+                bg-gray-200
+                mx-auto
+                rounded-2xl
+                flex
+                items-center
+                justify-center
+              "
+            >
+              <img src="images/jacket-6.png" alt="" srcset="" />
+            </div>
+            <h3 class="text-4xl font-bold text-gray-900">Man Casual Jackets</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="card-footer flex justify-between items-center">
+              <h4 class="price text-6xl font-bold text-yellow-400">$240</h4>
+              <button
+                class="
+                  text-white
+                  px-12
+                  py-8
+                  rounded-2xl
+                  bg-gradient-to-r
+                  from-green-400
+                  to-green-600
+                  uppercase
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-8 w-8"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section class="container mx-auto my-32 px-14">
+        <h2
+          class="
+            text-7xl
+            uppercase
+            text-gray-800
+            font-semibold
+            tracking-wider
+            text-center
+            mb-16
+          "
+        >
+          Features
+        </h2>
+        <div class="grid grid-cols-2 gap-y-7">
+          <div
+            class="grid-item shadow-lg flex items-center p-8 rounded-xl w-5/6"
+          >
+            <div class="feature-img-box mr-12">
+              <img src="icons/image 12.png" alt="" />
+            </div>
+            <div class="feature-details">
+              <h3 class="text-4xl font-bold text-gar-700">
+                Find the Perfect Fit
+              </h3>
+              <p>
+                Everybody is different, which is why we offer styles for every
+                body.
+              </p>
+            </div>
+          </div>
+          <div class="grid-item row-span-3">
+            <img src="images/shopping.png" alt="" />
+          </div>
+          <div
+            class="grid-item shadow-lg flex items-center p-8 rounded-xl w-5/6"
+          >
+            <div class="feature-img-box mr-12">
+              <img src="icons/image 13.png" alt="" />
+            </div>
+            <div class="feature-details">
+              <h3 class="text-4xl font-bold text-gar-700">Free Exchanges</h3>
+              <p>One of the many reasons you can shop with peace of mind.</p>
+            </div>
+          </div>
+          <div
+            class="grid-item shadow-lg flex items-center p-8 rounded-xl w-5/6"
+          >
+            <div class="feature-img-box mr-12">
+              <img src="icons/image 14.png" alt="" />
+            </div>
+            <div class="feature-details">
+              <h3 class="text-4xl font-bold text-gar-700">
+                Find the Perfect Fit
+              </h3>
+              <p>
+                Everybody is different, which is why we offer styles for every
+                body.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
